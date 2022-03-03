@@ -55,9 +55,6 @@ public class Questao01 {
     // Método para encontrar a mediana de uma lista.
     static Integer encontrarMediana(ArrayList<Integer> lista) {
         int indice = lista.size()/2;
-        if (indice == 0){
-            indice = 1;
-        }
         return lista.get(indice);
 
     }
